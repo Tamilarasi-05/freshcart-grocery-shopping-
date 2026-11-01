@@ -1,0 +1,21 @@
+# Sensitive environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Dependency directories (avoids pushing massive folders)
+node_modules/
+/dist
+/build
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# Operating system files
+.DS_Store
+Thumbs.db
